@@ -1,5 +1,5 @@
 {
-    "name": "@ysoftwarerepo/template-electron-cra",
+    "name": "tecra",
     "version": "0.6.0",
     "description": "A template project for developing electron application by electron, react (CRA) and typescript.",
     "main": "build/electron.js",
@@ -7,7 +7,7 @@
     "license": "MIT",
     "author": {
         "name": "YF1999",
-        "email": "1586939317@qq.com",
+        "email": "yifanw1101@gmail.com",
         "url": "https://github.com/YF1999"
     },
     "bugs": {

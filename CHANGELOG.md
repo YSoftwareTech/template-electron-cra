@@ -12,10 +12,10 @@
 
 - [Build] Make renderer typescript config simpler
 - [Types] These type declarations are moved into global declaration
-    - `ReactStyleFunc`
-    - `IClientAreaSize`
-    - `IElementPositionSize`
-    - `IElementSize`
+  - `ReactStyleFunc`
+  - `IClientAreaSize`
+  - `IElementPositionSize`
+  - `IElementSize`
 - [Code] Remove premature performance optimization
 - [ESlint] Only enable object variable declarator
 - [Scripts] Add paths.ts and deprecated.ts, `md-working-dir`, `run-build` and `run-unpacked` are moved into scripts/npm/
@@ -23,45 +23,46 @@
 ### Breaking Changes
 
 - [Build] typescript configurations has been changed:
-    - Add new typescript configuration for eslint
-    - Move the typescript configuration used for scripts
-    - Add multi typescript configurations for common, main, renderer code
-    - Root tsconfig.json is removed
+  - Add new typescript configuration for eslint
+  - Move the typescript configuration used for scripts
+  - Add multi typescript configurations for common, main, renderer code
+  - Root tsconfig.json is removed
 - [Deps] Bump lock file to v2
+- Rename root project name to `tecra`
 
 ### Dependency Changes
 
 - New
-    - `error-oop`                               v0.4.0
+  - `error-oop`                                 v0.4.0
 - Upgrade
-    - `@fluentui/react`                         v8.21.1   -> v8.28.2
-    - `@reduxjs/toolkit`                        v1.6.0    -> v1.6.1
-    - `@testing-library/user-event`             v13.1.9   -> v13.2.1
-    - `@types/jest`                             v26.0.23  -> v26.0.24
-    - `@types/lodash`                           v4.14.170 -> v4.14.172
-    - `@types/node`                             v14.17.4  -> v14.17.9
-    - `@types/react`                            v17.0.11  -> v17.0.18
-    - `@types/react-dom`                        v17.0.8   -> v17.0.9
-    - `@types/react-redux`                      v7.1.16   -> v7.1.18
-    - `@types/speed-measure-webpack-plugin`     v1.3.3    -> v1.3.4
-    - `@typescript-eslint/eslint-plugin`        v4.28.1   -> v4.29.2
-    - `@typescript-eslint/experimental-utils`   v4.28.1   -> v4.29.2
-    - `@typescript-eslint/parser`               v4.28.1   -> v4.29.2
-    - `@typescript-eslint/scope-manager`        v4.28.1   -> v4.29.2
-    - `@typescript-eslint/types`                v4.28.1   -> v4.29.2
-    - `@typescript-eslint/typescript-estree`    v4.28.1   -> v4.29.2
-    - `@typescript-eslint/visitor-keys`         v4.28.1   -> v4.29.2
-    - `browserslist`                            v4.16.6   -> v4.16.7
-    - `chalk`                                   v4.1.1    -> v4.1.2
-    - `concurrently`                            v6.2.0    -> v6.2.1
-    - `eslint-plugin-import`                    v2.23.4   -> v2.24.0
-    - `eslint-plugin-jest`                      v24.3.6   -> v24.4.0
-    - `react-scrollbars-custom`                 v4.0.25   -> v4.0.27
-    - `sass`                                    v1.35.1   -> v1.38.0
-    - `web-vitals`                              v2.0.1    -> v2.1.0
-    - `webpack-cli`                             v4.7.2    -> v4.8.0
+  - `@fluentui/react`                           v8.21.1   -> v8.28.2
+  - `@reduxjs/toolkit`                          v1.6.0    -> v1.6.1
+  - `@testing-library/user-event`               v13.1.9   -> v13.2.1
+  - `@types/jest`                               v26.0.23  -> v26.0.24
+  - `@types/lodash`                             v4.14.170 -> v4.14.172
+  - `@types/node`                               v14.17.4  -> v14.17.9
+  - `@types/react`                              v17.0.11  -> v17.0.18
+  - `@types/react-dom`                          v17.0.8   -> v17.0.9
+  - `@types/react-redux`                        v7.1.16   -> v7.1.18
+  - `@types/speed-measure-webpack-plugin`       v1.3.3    -> v1.3.4
+  - `@typescript-eslint/eslint-plugin`          v4.28.1   -> v4.29.2
+  - `@typescript-eslint/experimental-utils`     v4.28.1   -> v4.29.2
+  - `@typescript-eslint/parser`                 v4.28.1   -> v4.29.2
+  - `@typescript-eslint/scope-manager`          v4.28.1   -> v4.29.2
+  - `@typescript-eslint/types`                  v4.28.1   -> v4.29.2
+  - `@typescript-eslint/typescript-estree`      v4.28.1   -> v4.29.2
+  - `@typescript-eslint/visitor-keys`           v4.28.1   -> v4.29.2
+  - `browserslist`                              v4.16.6   -> v4.16.7
+  - `chalk`                                     v4.1.1    -> v4.1.2
+  - `concurrently`                              v6.2.0    -> v6.2.1
+  - `eslint-plugin-import`                      v2.23.4   -> v2.24.0
+  - `eslint-plugin-jest`                        v24.3.6   -> v24.4.0
+  - `react-scrollbars-custom`                   v4.0.25   -> v4.0.27
+  - `sass`                                      v1.35.1   -> v1.38.0
+  - `web-vitals`                                v2.0.1    -> v2.1.0
+  - `webpack-cli`                               v4.7.2    -> v4.8.0
 - Remove
-    - `node-errors-pro`                         v0.2.0
+  - `node-errors-pro`                           v0.2.0
 
 ## tecra v0.6.0 (2021-08-01)
 ### Features
